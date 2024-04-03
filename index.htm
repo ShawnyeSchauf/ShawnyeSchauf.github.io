@@ -1,0 +1,91 @@
+<!-- @author Shawnye Schauf, Shawnyes Cruising Bicycles, CSS Style Page, Southern Illinois University Developed: 2-09-2024 Tested: 2-09-2024 -->
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset= utf-8>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shawnye's Crusing Bicycles</title>
+        <link href="style/main.css" rel="stylesheet">
+        <link rel="stylesheet" href="style/slicknav.css"> 
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+        <script src="js/jquery.slicknav.min.js"></script> 
+        <script type="text/javascript"> 
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+            }); 
+        </script>
+
+        <meta name="description" content="A small bike shop"> <meta name="keywords" content="shawnye, Cruiser bike, mountain bike, road bike, electric bike">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="shortcut icon" type="x-icon" href="icon.png">
+
+    </head>
+        
+    <body> <!-- contains all the content of an HTML document
+--> 
+    
+        <figure class="transition">
+    <img class="transition" src="images/bike.png"/>
+    <img class="transition1" src="bikeride.jpeg"/>
+       </figure> 
+              
+    <header>
+         
+        
+    </header>
+        <h1>Shawnye's Cruising Bicycles</h1>
+        
+         <!-- Navigation Menu -->
+        <nav id="mobile_menu"></nav> 
+        <nav id="nav_menu"> 
+            <ul>
+                <li><a href="index.htm" class="current">Home</a></li> 
+                <li><a href="sales.htm">Sales</a></li> 
+                <li><a href="rentals.htm" >Rentals</a></li>
+                <li><a href="services.htm" >Services</a></li> 
+                <li><a href="contact.htm" class="lastitem">Contact</a></li>
+            </ul> 
+        </nav>
+        
+        <h2>The coolest bikes in town!</h2>
+        <p>I have plenty of <b>cool</b> bicycles for you to choose from! Take a look around and choose the <i>bike</i> that best fits you!</p>
+        
+            <blockquote>Specializing in:</blockquote>
+        <ol> <!--unordered list element
+-->
+            <li>Mountain Bikes</li>
+            <li>Road Bikes</li>
+            <li>Electric Bikes</li>
+            <li>Crusier Bikes</li>
+        </ol>
+    <div class="comment-box"> <!-- defines a division or section --> </div>
+       <p>Contact Us:</p>
+            <br>1-800-283-8798<br>
+        <a href="emailto:Shawnyescrusingbicycles.com">owner@shawnyescruisingbicycles.com</a>
+            
+        <pre>
+        Store Address:
+        Shawnye's Cruising Bicycles
+        1200 South Monroe
+        Marion
+        Illinois, 62959
+            <!-- Dont show this right now
+                    <p>Shawnyes Cruising Bicycle's, Southern Illinois University, Developed and tested January 24, 2024
+            -->
+            </pre>
+        <!-- contains an input element paired with a label -->
+        
+        <!--  Audio --> 
+        
+        <audio controls autoplay>
+        <source src="Left%20U%20Into%20(Sting)%20-%20Otis%20McDonald.mp3">
+        </audio>
+        
+         <footer id="footer"> <!-- used to identify the footer of the page -->
+            <p>&copy; Copyright 2024 Shawnye's Cruising Bicycles</p>
+        </footer>
+        
+        </body>
+
+</html>
