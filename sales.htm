@@ -1,0 +1,54 @@
+<!-- @author Shawnye Schauf, Shawnyes Cruising Bicycles, CSS Style Page, Southern Illinois University Developed: 2-14-2024 Tested: 2-14-2024 */-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       
+        <meta charset="utf-8">
+        <title>Shawnye's Cruising Bicycles</title> 
+        <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="style/slicknav.css"> 
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+        <script src="js/jquery.slicknav.min.js"></script> 
+        <script type="text/javascript"> 
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+            }); 
+        </script>
+        <meta name="description" content="Shawnye's Crusing Bicycles"> <meta name="keywords" content="shawnye, sales, bicycle">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+         <link rel="shortcut icon" type="x-icon" href="icon.png">
+
+    </head>
+    
+    <body>
+        
+        
+        <figure class="transition">
+    <img class="transition" src="images/bike.png"/>
+    <img class="transition1" src="bikeride.jpeg"/>
+       </figure>
+    
+        <header>
+                 </header>
+    
+        <!-- Navigation Menu  -->
+        <nav id="mobile_menu"></nav> 
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="index.htm">Home</a></li> 
+                <li><a href="sales.htm"class="current">Sales</a></li> 
+                <li><a href="rentals.htm" >Rentals</a></li>
+                <li><a href="services.htm">Services</a></li> 
+                <li><a href="contact.htm" class="lastitem">Contact</a></li>
+            </ul> 
+        </nav>
+
+    <video width= 100% controls loop autoplay muted>
+            <source src= "Video.mp4">
+        </video>
+         
+            
+    </body>
+
+</html>
